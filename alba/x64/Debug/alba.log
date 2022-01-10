@@ -1,0 +1,16 @@
+﻿  main.cpp
+  SimulatedTracker.cpp
+  TechUserProxy.cpp
+  SimulatorProxy.cpp
+src\aProxy\SimulatorProxy.cpp(117): warning C4838: conversion from 'double' to 'const simxFloat' requires a narrowing conversion
+src\aProxy\SimulatorProxy.cpp(117): warning C4244: 'initializing': conversion from 'double' to 'const simxFloat', possible loss of data
+  PolarisProxy.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     Creating library C:\Users\AHMAD\Downloads\FinalSource\Software\alba\x64\Debug\alba.lib and object C:\Users\AHMAD\Downloads\FinalSource\Software\alba\x64\Debug\alba.exp
+extApiPlatform.obj : error LNK2001: unresolved external symbol close_shared_memory
+extApiPlatform.obj : error LNK2001: unresolved external symbol set_shared_memory_name
+extApiPlatform.obj : error LNK2001: unresolved external symbol map_shared_memory
+extApiPlatform.obj : error LNK2001: unresolved external symbol open_shared_memory
+extApiPlatform.obj : error LNK2001: unresolved external symbol set_shared_memory_size
+extApiPlatform.obj : error LNK2001: unresolved external symbol destroy_shared_memory
+C:\Users\AHMAD\Downloads\FinalSource\Software\alba\x64\Debug\alba.exe : fatal error LNK1120: 6 unresolved externals
